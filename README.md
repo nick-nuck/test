@@ -18,11 +18,10 @@ python main.py --files examples/math.csv examples/physics.csv examples/programmi
 python main.py --files math.csv physics.csv programming.csv --report median-coffee
 ```
 
-Для ревьюера: приложите скриншот запуска на ваших полных данных (как в задании) — так проще сверить таблицу.
-
 ## Тесты
 
 ```bash
 pip install -r requirements.txt
 pytest
 ```
+
